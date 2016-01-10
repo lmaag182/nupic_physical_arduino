@@ -42,9 +42,8 @@ void loop() {
   //delayg(1000);              // wait for a second
   //Serial.println("done");
   for (int i=0; i <= 5; i++){
-      val = analogRead(analogPin);    // read the input pin
       //Serial.print("0:");
-      Serial.print(analogRead(0);
+      Serial.print(analogRead(0));
       Serial.print(",");
       //Serial.print("1:");
       Serial.print(analogRead(1));
