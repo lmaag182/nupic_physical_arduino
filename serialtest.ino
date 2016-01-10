@@ -28,6 +28,7 @@ void setup() {
   pinMode(13, OUTPUT);
   Serial.begin(9600);
   //Serial.println("init");
+
 }
 
 // the loop function runs over and over again forever
@@ -42,9 +43,8 @@ void loop() {
   //Serial.println("done");
   for (int i=0; i <= 5; i++){
       val = analogRead(analogPin);    // read the input pin
-      //analogWrite(9, val / 4);
       //Serial.print("0:");
-      Serial.print(val);
+      Serial.print(analogRead(0);
       Serial.print(",");
       //Serial.print("1:");
       Serial.print(analogRead(1));
@@ -81,5 +81,6 @@ void loop() {
       }
       //analogWrite(9, val / 4);
       delay(500);
-   } 
+   }
 }
+
