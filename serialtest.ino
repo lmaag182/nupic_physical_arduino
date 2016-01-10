@@ -57,7 +57,7 @@ void loop() {
       Serial.println();
       //Serial.print(";");
       //analog
-      //Write(PWMpin, i);
+      //Write(PWMpin, i);1
       while (Serial.available() > 0) {
         int inChar = Serial.read();
         if (isDigit(inChar)) {
